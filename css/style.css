@@ -10,7 +10,7 @@
 section {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(90deg, rgb(5, 52, 65) 0%, rgb(39, 169, 255) 100%);
+    background: linear-gradient(90deg, rgb(62, 12, 97) 0%, rgb(39, 169, 255) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +26,7 @@ section h1 {
 
 section .start-quiz button {
     padding: 12px 25px;
-    background-color: rgb(8, 175, 8);
+    background-color: #08af08;
     border: none;
     outline: none;
     color: #fff;
@@ -40,7 +40,7 @@ section .start-quiz button {
 main {
     width: 100%;
     max-width: 760px;
-    min-height: 400px;
+    min-height: 430px;
     background-color: #f0f0f0;
     border-radius: 10px;
     display: flex;
@@ -70,7 +70,7 @@ main .question-title {
     display: none;
 }
 
-main h2 {
+main .question-title h2 {
     width: 100%;
     font-size: 1rem;
     font-weight: 500;
@@ -83,12 +83,12 @@ main .questions {
     display: none;
 }
 
-.questions button {
+main .questions button {
     width: 100%;
     padding: 10px;
     border: none;
     outline: none;
-    background-color: rgb(32, 104, 110);
+    background-color: #0b535e;
     color: #fff;
     font-size: 15px;
     font-weight: 500;
@@ -96,7 +96,7 @@ main .questions {
     cursor: pointer;
 }
 
-.questions button:not(:last-child) {
+main .questions button:not(:last-child) {
     margin-bottom: 10px;
 }
 
@@ -114,11 +114,11 @@ main .exit-content {
     display: none;
 }
 
-.exit-content span {
+main .exit-content span {
     font-size: 1.5rem;
 }
 
-.exit-content button {
+main .exit-content button {
     display: inline-block;
     padding: 10px 22px;
     background-color: #222;
@@ -130,4 +130,20 @@ main .exit-content {
     border-radius: 5px;
     letter-spacing: 0.25px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 370px) {
+    main .question-title h2 {
+        font-size: 14px;
+        padding-top: 2rem;
+    }
+
+    main .questions {
+        margin-top: 5px;
+    }
+
+    main .questions button {
+        padding: 8px;
+        font-size: 14px;
+    }
 }

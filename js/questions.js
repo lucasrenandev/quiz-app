@@ -38,9 +38,9 @@ export default [
     {
         question: "Defina o que é JavaScript?",
         answers: [
-            {option: "É uma linguagem de programação", correct: true},
-            {option: "É uma linguagem de Marcação", correct: false},
-            {option: "É uma linguagem de estilização", correct: false},
+            {option: "Uma linguagem de programação client side(lado cliente)", correct: true},
+            {option: "Uma linguagem de programação server side(lado servidor)", correct: false},
+            {option: "Uma linguagem de programação para criar páginas web", correct: false},
             {option: "Nenhuma das alternativas", correct: false},
         ]
     },
