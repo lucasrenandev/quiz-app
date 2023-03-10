@@ -29,9 +29,9 @@ startQuiz.addEventListener("click", () => {
 
 // Reiniciar quiz
 refresh.addEventListener("click", () => {
+    mainContainer.style.display = "none"
     exitContent.style.display = "none"
     startQuiz.style.display = "block"
-    mainContainer.style.display = "none"
 
     currentIndex = 0
     questionCorrect = 0

@@ -30,7 +30,7 @@ export default [
         question: "Qual a linguagem de programação nativa dos Browsers(Navegadores Web)?",
         answers: [
             {option: "Java", correct: false},
-            {option: "C#", correct: false},
+            {option: "Php", correct: false},
             {option: "Python", correct: false},
             {option: "JavaScript", correct: true},
         ]
